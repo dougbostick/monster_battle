@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Monster Battle</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main id="game">
+      <section class="status"></section>
+      <section class="battle">
+        <section class="player">
+          <h1 class="title">SELECT PLAYER 1</h1>
+        </section>
+        <section class="opponent">
+          <h1 class="title">SELECT PLAYER 2</h1>
+        </section>
+      </section>
+      <section class="ui">
+        <button class="fight">Fight!</button>
+        <section class="monsters"></section>
+        <ol class="log"></ol>
+      </section>
+    </main>
+    <!-- this is how html natively works, loads one after another-->
+    <script src="js/move.js"></script>
+    <script src="js/monster.js"></script>
+    <script src="js/battle.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
